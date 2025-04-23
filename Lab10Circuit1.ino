@@ -6,26 +6,10 @@
   By: Sasha Dauz, 
   Written: April 22, 2025
   I/O Pins
-  A0:  
-  A1:  
-  A2:  
-  A3:  
-  A4:  
-  A5:  
-  D0:  
-  D1:  
-  D2:  
-  D3:  
-  D4:  
-  D5:  
-  D6:  
+  ...
   D7: [OUTPUT] LED
   D8: [INPUT] Pushbutton
-  D9:  
-  D10: 
-  D11: 
-  D12: 
-  D13: 
+  ...
 */
 
 void setup()
