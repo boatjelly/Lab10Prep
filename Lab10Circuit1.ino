@@ -19,8 +19,8 @@
   D4:  
   D5:  
   D6:  
-  D7: LED
-  D8:  
+  D7: [OUTPUT] LED
+  D8: [INPUT] Pushbutton
   D9:  
   D10: 
   D11: 
