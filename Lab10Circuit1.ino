@@ -22,9 +22,8 @@ void setup()
 
   // Configure Timer/Counter 0 to be called whenever a pushbutton is pressed (consider connecting to D8)
   // MUST BE PORTB BECAUSE YOU'RE MADE TO USE PIN CHANGE INTERRUPT 0
-  TCCR0A = 
-  TCCR0B = 
-  TIMSK0 = 
+  PCICR = 0x01; // Enable Pin Change Interrupt 0 
+  PCMSK0 = 0x01; // Enable Pin Change Interrupt 0 to be called whenever Pushbutton connected to D8 is pushed
 
   // Globally re-enable interrupts
   sei();
