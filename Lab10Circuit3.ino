@@ -1,6 +1,6 @@
 /*
-  Lab 10, Circuit 2
-  Sleep modes
+  Lab 10, Circuit 3
+  CLKPR and PRR registers
   Description: This circuit will utilize two pushbuttons. One pushbutton will put the microcontroller into a sleep
   mode. The second pushbutton will exit the sleep mode and turn an LED either ON or OFF.
   By: Sasha Dauz, 
